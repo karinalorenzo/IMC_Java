@@ -1,8 +1,5 @@
 package dev.karina.imc_java.model;
 
-
-
-public class IMCModelCalculatorTest {
-
+public class IMCCalculator {
     
 }
