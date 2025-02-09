@@ -10,9 +10,10 @@ public class IMCController {
     private IMCCategorizer imcCategorizer;
     private IMCView imcView;
 
-    // constructor para inicializar el contorlador con los componentes de model y view
+    // constructor para inicializar el contorlador con los componentes de model y
+    // view
 
-    public IMCController(IMCCalculator imcCalculator, IMCCategorizer imcCategorizer, IMCView imcView){
+    public IMCController(IMCCalculator imcCalculator, IMCCategorizer imcCategorizer, IMCView imcView) {
         this.imcCalculator = imcCalculator;
         this.imcCategorizer = imcCategorizer;
         this.imcView = imcView;
@@ -20,8 +21,8 @@ public class IMCController {
 
     // método para calcular and mostrar el IMC
 
-    public void calcaulateAndShowIMC(){
-        double weight = imcView.getHeight();
+    public void calculateAndShowIMC() {
+        double weight = imcView.getWeight();
         double height = imcView.getHeight();
         double imc = imcCalculator.calculateIMC(weight, height);
         String category = ((IMCCategorizerImpl) imcCategorizer).categorizeIMC(imc);
