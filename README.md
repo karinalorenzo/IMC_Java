@@ -25,7 +25,6 @@ To run this project, you need to have the following installed:
 
 ## Tech stack:
 
-![Visual Studio Code](https://img.shields.io/badge/-Visual_Studio_Code-007ACC?logo=visual-studio-code&logoColor=white&style=flat)
 ![Maven](https://img.shields.io/badge/-Maven-C71A36?logo=apache-maven&logoColor=white&style=flat)
 ![Java](https://img.shields.io/badge/-Java-007396?logo=java&logoColor=white&style=flat)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=flat)
